@@ -14,7 +14,7 @@
             background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/RO_AB_Sasciori_Laz_2011.35.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-            background-color: rgba(255, 255, 255, 0.822); /* Semi-transparent white background */
+            background-color: rgba(255, 255, 255, 0.822); 
             z-index: 1;
             font-size: 20px;
         }
@@ -26,8 +26,12 @@
             background-repeat: repeat-x; 
             background-size: auto 100%; 
             top: 0; 
-            left: 0; 
+            left: 0;
             z-index: 2;
+            a:hover{
+                color: rgb(0, 0, 0);
+                background-color: #61ce21;
+            }
         }
 
         .titlu{
@@ -105,7 +109,13 @@
             color: white;
         }
 
-
+        .container img{
+            transform: scale(0.3);
+            margin-top:-666px;
+            margin-bottom: -623px;
+            margin-right:-69px;
+            margin-left:-396px;
+        }
        
     </style>
 </head>
@@ -171,16 +181,20 @@
     
     <p>Pictatul icoanelor pe sticlă devine astfel o tranziție naturală între sărbătorile religioase și viața de zi cu zi din Laz. Prin intermediul acestui act sacru, comunitatea își manifestă credința și respectul față de tradițiile străvechi, întărind legăturile lor cu divinitatea și cu comunitatea a cărei parte integrantă sunt.</p>
 
-    <h2>Interview</h2>
+    <h2>Interviu realizat de Sonia-Maria Dogar cu Florin Poenaru:</h2>
     <audio controls id="myAudio">
         <source src="./assets/icoane.mp4" type="audio/mp4">
         Your browser does not support the audio element.
     </audio>
+
+
+    <h2><i>Familia Poenaru</i></h2>
+    <img style ="border-radius: 2000px; " src="./assets/dinastia_poenaru.jpeg">
     
     <script>
-        const audioElement = document.getElementById('myAudio');
-        audioElement.autoplay = false; // Disable autoplay
-        audioElement.pause(); // Pause the audio immediately
+        const audioElement = ument.getElementById('myAudio');
+        audioElement.autoplay = false; 
+        audioElement.pause(); 
     </script>
     
 
@@ -192,10 +206,10 @@
 <div class="spPoze">
     <div class="poza_numero_uno">
         <img src="./assets/cruce.jpeg">
-        <p><b><u>Cea mai veche curce de mana din România</u></b></p>
+        <p><b><u>Cea mai veche cruce de mână din România</u></b></p>
         <img src="./assets/stea.jpeg">
         <p><b><u>Steaua de Laz - 100 ani</u></b></p>
-        <a href="/src/galerie.html">Galerie</a>
+        <a href="/src/galerie.html">Galerie - icoane pe sticlă realizate de familia Poenaru din Laz:</a>
     </div>
     
 </div>

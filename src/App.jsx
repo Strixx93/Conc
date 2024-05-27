@@ -21,7 +21,7 @@ function App() {
       </div>
 
       <div className="traditii-text">
-        <h1>Tradiții românești</h1>
+        <h1>Pecețile tradiției</h1>
       </div>
 
       <div className="laz-text">

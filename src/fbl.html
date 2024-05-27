@@ -14,7 +14,7 @@
             background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/RO_AB_Sasciori_Laz_2011.35.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-            background-color: rgba(255, 255, 255, 0.822); /* Semi-transparent white background */
+            background-color: rgba(255, 255, 255, 0.822);
             z-index: 1;
             font-size: 20px;
         }
@@ -28,6 +28,10 @@
             top: 0; 
             left: 0; 
             z-index: 2;
+            a:hover{
+                color: rgb(0, 0, 0);
+                background-color: #61ce21;
+            }
         }
 
         .titlu{
@@ -48,9 +52,26 @@
             margin-right: 600px;
             height: 780px;
             width:1850px;
-            overflow-y: auto;
+            overflow: hidden;
             font-size:28;
            
+        }
+
+        .container img{
+            position: absolute;
+            transform: scale(0.2);
+            margin-bottom:-666px;
+            margin-top: -619px;
+            margin-left: -835px;
+            margin-right: -800px;
+            border-radius: 10000px; 
+
+        }
+
+        .contianer audio{
+            position: absolute;
+            margin-right: -96px;
+            margin-left: 69px;
         }
 
         .section-button {
@@ -83,21 +104,27 @@
 <div class="container">
 
     <h2></h2>
-              <p>Fotbalul este adesea perceput ca un simbol al unității și al tradiției în multe familii și comunități din întreaga lume. Fotbalul este un sport care aduce oamenii împreună și poate fi o activitate prin care se construiește și se întărește legătura dintre membrii unei familii.<br />
+              <p style="font-size: 27px;">Fotbalul este adesea perceput ca un simbol al unității și al tradiției în multe familii și comunități din întreaga lume. Fotbalul este un sport care aduce oamenii împreună și poate fi o activitate prin care se construiește și se întărește legătura dintre membrii unei familii.<br />
 
               Ca simbol, fotbalul reprezintă pasiunea, competiția sănătoasă, efortul și spiritul de echipă. În multe culturi, fotbalul este mult mai mult decât un simplu joc; este o modalitate de a celebra tradițiile și valorile transmise din generație în generație.Pentru un fiu și tată care împărtășesc pasiunea pentru acest sport, fiecare meci devine o ocazie specială de a-și întări legătura și de a crea amintiri de neuitat.</p>
-              <p>În prima zi de Paste, locuitorii satului se întalnesc la Cetățea unde se organizează un meci de fotbal,
-              dar nu unul obișnuit ci unul între feciori și însurati. Acest obcei datează de cel puțin 60 de ani. </p>
-    <h3>
+              <p style="font-size: 27px;">În prima zi de Paște, locuitorii satului se întâlnesc la Cetățea unde se organizează un meci de fotbal,
+              dar nu unul obișnuit, ci unul între „feciori” și „însurați”. Acest obcei datează de cel puțin 60 de ani. </p>
+                <p style="font-size: 27px;"><b><i>Interviu realizat de Sonia-Maria Dogar cu Silviu Popa, organizatorul acestui obicei:</i></b> </p>
+              <h3>
         <audio controls id="myAudio">
             <source src="/src/assets/fbl.mp4" type="audio/mp4">
             Your browser does not support the audio element.
         </audio>
+
+        <h1></h1>
+        <video style="border-radius:3.3vw" width="600" controls>
+            <source src="./assets/ze_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         
         
     </h3>          
     
-
 </div>
 
 </html>

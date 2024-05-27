@@ -9,7 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(255, 255, 255, 0.822); 
-  scrollbar-width: none;
+  overflow: hidden;
 }
 
 
@@ -17,18 +17,18 @@
 .traditii-text {
   color: black;
   position: absolute;
-  height:15px;
-  top: 20px; 
-  left: 100px; 
+  height:1.5vh;
+  top: 2.0vh; 
+  left: 10vw; 
 }
 
 .laz-text{
   color: black;
   position: absolute;
   top: 0;
-  right: -400px;
-  margin-top: 20px; 
-  margin-right: 600px; 
+  right: -7vw;
+  margin-top: 2vh; 
+  margin-right: 30vw; 
 }
 
 .left-sidebar{
@@ -41,19 +41,19 @@
 }
 
 .horizontal-list li {
-  margin-right: 10px; 
+  margin-right: 1vw; 
 }
 
 
 .horizontal-list li {
   background-color: #f0f0f0;
-  padding: 10px;
+  padding: 1vw;
 }
 
 
 .brau {
   width: 100%; 
-  height: 47px; 
+  height: 4.77vh; 
   background-image: url('https://motivector.ro/wp-content/uploads/2018/08/153-Motiv-Traditional-Transilvania-Sibiu-www.motivector.ro-01.jpg'); /* Set the background image */
   background-repeat: repeat-x; 
   background-size: auto 100%; 
@@ -66,39 +66,39 @@
 .header-column {
   background-image: url('https://motivector.ro/wp-content/uploads/2017/06/106-Motive-c%C4%83m%C4%83i-b%C4%83rb%C4%83te%C8%99ti-Moldova-jud.-Boto%C8%99ani-Cristine%C8%99ti-www.motivector.ro-Preview.jpg'); /* Semi-transparent white background for the header column */
   color: rgba(0, 20, 4, 0.993);
-  margin-bottom: 0px;
-  height: 150px; 
+  margin-bottom: 0vh;
+  height: 15vh; 
   width: 100vw; 
   text-align: center;
 }
 
 .small-button {
-  padding: 5px 10px; 
-  font-size: 20px; 
+  padding: 0.5vw 1vh; 
+  font-size: 1.048vw; 
 }
 .section-button {
   text-align: center;
   display: inline-flex;
-  padding: 11px 20px;
-  font-size: 16px;
+  padding: 0.55vw 2vh;
+  font-size: 0.82vw;
   background-color: #795c0d;
   color: #fff;
   border: none;
   border-radius: 0px;
   cursor: pointer;
-  border-radius: 200px;
+  border-radius: 20vw;
 }
 
 .section-button:hover {
-  background-color: #0056b3;
+  background-color: #61ce21;
 }
 
 .default-content{
   
   color: rgb(255, 255, 255);
   background-color: #000000b0; 
-  padding: 20px; 
-  border-radius: 100px; 
+  padding: 2vw; 
+  border-radius: 10vw; 
   scrollbar-width: none;
 
 }
@@ -106,13 +106,13 @@
 .section-content {
   color: rgb(255, 255, 255);
   background-color: #0000009c; 
-  padding: 20px; 
-  border-radius: 100px; 
-  margin-left: 10px;
-  margin-right: 550px;
-  margin-top: 100px; 
-  height: 500px;
-  width:1300px;
+  padding: 2vw; 
+  border-radius: 7vw; 
+  margin-left: 1vw;
+  margin-right: 29vw;
+  margin-top: 10vh; 
+  height: 50vh;
+  width:66vw;
   overflow-y: auto;
   scrollbar-width: none;
   
@@ -120,19 +120,14 @@
 
 
 .map-container{
-  position: absolute;
-  right: 0;
   color: rgb(255, 255, 255);
-  padding: 20px; 
-  border-radius: 0px; 
-  margin-top: -777px; 
-  margin-bottom: -999px;
-  margin-left: 1500px; /* Adjust as needed */
-  margin-right: -48px;
-  height: 600px;
-  width: 600px;
+  padding: 2vh; 
+  margin-top: -55vh; 
+  margin-bottom: -777vh;
+  margin-left: 69.29vw;
+  height: 60vw;
+  width: 60vh;
   z-index: 5;
-  font-size: 26px;
   transform: scale(0.9);
 }
 
@@ -141,15 +136,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.248vw;
 }
 
-.card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  margin-top: 20px;
-}
 
 footer {
   background-color: rgba(255, 255, 255, 0.822);
@@ -159,8 +148,3 @@ footer {
   text-align: center;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-}
