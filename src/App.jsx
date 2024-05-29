@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="app">
       <div className="brau">
-        <a href="/src/index.html" class="section-button">Acasă</a>
-        <a href="/src/icoane.html" class="section-button">Pictura pe sticlă</a>
-        <a href="/src/lazar.html" class="section-button">„Verșul lui Lazăr”</a>
-        <a href="/src/fbl.html" class='section-button'>„Tradiții unice</a>
-        <a href="/src/dsp.html" class='section-button'>Despre</a>
+      <a href="index.html" class="section-button">Acasă</a>
+      <a href="icoane.html" class="section-button">Pictura pe sticlă</a>
+      <a href="lazar.html" class="section-button">„Verșul lui Lazăr”</a>
+      <a href="fbl.html" class="section-button">„Tradiții unice</a>
+      <a href="dsp.html" class="section-button">Despre</a>
       
       </div>
 
